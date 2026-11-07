@@ -1,0 +1,9 @@
+{
+    "method": "StratifiedGroupKFold",
+    "n_splits": 3,
+    "shuffle": true,
+    "random_state": 42,
+    "group_column": "scenario_group",
+    "target_column": "risk_severity",
+    "training_examples": 568
+}

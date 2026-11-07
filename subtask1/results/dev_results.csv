@@ -1,0 +1,5 @@
+model,mae,accuracy
+TF-IDF + Logistic Regression,0.4825,0.6783
+Original MiniLM + LR,1.1678,0.3916
+Action-only MiniLM + LR,0.6503,0.5734
+Original Hybrid + LightGBM,0.3147,0.7203

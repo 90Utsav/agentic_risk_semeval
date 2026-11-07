@@ -1,0 +1,40 @@
+{
+    "tfidf_logistic_cv": {
+        "feature_extractor": "TfidfVectorizer",
+        "max_features": 20000,
+        "ngram_range": [
+            1,
+            2
+        ],
+        "sublinear_tf": true,
+        "classifier": "LogisticRegression",
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "random_state": 42
+    },
+    "action_minilm_cv": {
+        "embedding_model": "all-MiniLM-L6-v2",
+        "input": "proposed_action",
+        "embedding_dimensions": 384,
+        "max_sequence_length": 256,
+        "classifier": "LogisticRegression",
+        "class_weight": "balanced",
+        "max_iter": 2000,
+        "random_state": 42
+    },
+    "context_action_minilm_cv": {
+        "embedding_model": "all-MiniLM-L6-v2",
+        "input": "formatted_interaction + proposed_action",
+        "chunk_size": 200,
+        "context_pooling": "mean",
+        "combination": "concatenation",
+        "embedding_dimensions": 768,
+        "classifier": "LogisticRegression",
+        "class_weight": "balanced",
+        "max_iter": 3000,
+        "random_state": 42
+    },
+    "hybrid_lightgbm_dev": {
+        "status": "Configuration needs verification from original notebook"
+    }
+}
