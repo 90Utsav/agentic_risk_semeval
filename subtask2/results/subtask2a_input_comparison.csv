@@ -1,0 +1,4 @@
+model,oof_jaccard,missed_harm,false_alarms
+full_interaction,0.6910211267605634,79,38
+action_only,0.715669014084507,49,37
+action_emphasized,0.7411971830985915,65,19
