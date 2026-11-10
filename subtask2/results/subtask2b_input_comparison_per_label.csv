@@ -1,0 +1,22 @@
+model,label,support,precision,recall,f1
+full_interaction,Authorization / Consent Failure,128,0.5813953488372093,0.5859375,0.5836575875486382
+full_interaction,Execution / Action Hazard,26,0.0,0.0,0.0
+full_interaction,Insufficient Grounding / Uncertainty,62,0.5263157894736842,0.16129032258064516,0.24691358024691357
+full_interaction,No Material Risk,262,0.738562091503268,0.8625954198473282,0.795774647887324
+full_interaction,Risky Requested Outcome,14,1.0,0.07142857142857142,0.13333333333333333
+full_interaction,Scope / Safeguard Failure,108,0.4375,0.12962962962962962,0.2
+full_interaction,Untrusted / Conflicting Instructions,195,0.8230088495575221,0.9538461538461539,0.8836104513064132
+action_only,Authorization / Consent Failure,128,0.5673758865248227,0.625,0.5947955390334573
+action_only,Execution / Action Hazard,26,0.0,0.0,0.0
+action_only,Insufficient Grounding / Uncertainty,62,0.35714285714285715,0.08064516129032258,0.13157894736842105
+action_only,No Material Risk,262,0.8283582089552238,0.8473282442748091,0.8377358490566038
+action_only,Risky Requested Outcome,14,0.6666666666666666,0.14285714285714285,0.23529411764705882
+action_only,Scope / Safeguard Failure,108,0.36538461538461536,0.17592592592592593,0.2375
+action_only,Untrusted / Conflicting Instructions,195,0.6954887218045113,0.9487179487179487,0.8026030368763557
+action_emphasized,Authorization / Consent Failure,128,0.6159420289855072,0.6640625,0.6390977443609023
+action_emphasized,Execution / Action Hazard,26,0.0,0.0,0.0
+action_emphasized,Insufficient Grounding / Uncertainty,62,0.47619047619047616,0.16129032258064516,0.24096385542168675
+action_emphasized,No Material Risk,262,0.7852564102564102,0.9351145038167938,0.8536585365853658
+action_emphasized,Risky Requested Outcome,14,1.0,0.14285714285714285,0.25
+action_emphasized,Scope / Safeguard Failure,108,0.43243243243243246,0.14814814814814814,0.2206896551724138
+action_emphasized,Untrusted / Conflicting Instructions,195,0.8915094339622641,0.9692307692307692,0.9287469287469288

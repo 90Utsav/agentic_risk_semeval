@@ -1,0 +1,8 @@
+risk_driver,frequency,percentage
+No Material Risk,262,46.12676056338028
+Untrusted / Conflicting Instructions,195,34.33098591549296
+Authorization / Consent Failure,128,22.535211267605632
+Scope / Safeguard Failure,108,19.014084507042252
+Insufficient Grounding / Uncertainty,62,10.915492957746478
+Execution / Action Hazard,26,4.577464788732394
+Risky Requested Outcome,14,2.464788732394366

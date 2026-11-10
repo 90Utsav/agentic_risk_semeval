@@ -1,0 +1,12 @@
+label,action_emphasized,action_only,full_interaction
+Discrimination / Fairness,0.0,0.0,0.0
+Environmental,0.0,0.0,0.0
+Financial / Assets,0.3333333333333333,0.34782608695652173,0.30985915492957744
+Information Quality,0.0,0.0,0.0
+Legal / Compliance,0.0,0.0,0.0
+No Material Harm,0.8526315789473684,0.8395522388059702,0.7929203539823009
+Operational / Service,0.3103448275862069,0.32786885245901637,0.32142857142857145
+Physical / Health,0.5063291139240507,0.5,0.48
+Privacy / Confidentiality,0.8586666666666667,0.8138957816377171,0.8062015503875969
+Reputational / Social / Psychological,0.0,0.5,0.0
+Security / System Integrity,0.4186046511627907,0.5185185185185185,0.3333333333333333
