@@ -1,0 +1,29 @@
+{
+  "checkpoint": "answerdotai/ModernBERT-base",
+  "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "torch": "2.15.0",
+  "max_length": 1024,
+  "batch_size": 1,
+  "gradient_accumulation": 8,
+  "epochs": 3,
+  "learning_rate": 2e-05,
+  "input_representation": "proposed action twice, before full interaction",
+  "threshold": 0.5,
+  "max_predicted_labels": 2,
+  "seed": 42,
+  "folds": [
+    1,
+    2,
+    3
+  ],
+  "labels": [
+    "Authorization / Consent Failure",
+    "Execution / Action Hazard",
+    "Insufficient Grounding / Uncertainty",
+    "No Material Risk",
+    "Risky Requested Outcome",
+    "Scope / Safeguard Failure",
+    "Untrusted / Conflicting Instructions"
+  ],
+  "validation_used_for_model_selection": false
+}
